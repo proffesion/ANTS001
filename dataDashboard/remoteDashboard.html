@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Data dasboard - Remote</title>
+</head>
+<body>
+    <h1>Remote</h1>
+    <!-- <button id="getUsers"> Get USers </button> -->
+    <!-- <br><br> -->
+    <!-- <div id="users"></div> -->
+    <input type="text" name="" id="reportType">
+    <script>
+
+
+            
+            function loadUsers() {
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', 'Data/Settings.php', true);
+     
+                xhr.onload = function() {
+                     if(this.status == 200){
+                         var result = this.responseText;
+                         result = JSON.parse(result);
+                         var output = '';
+                         
+
+                        var reportType = "month";
+                        var rateDisplay = "1";
+
+                        document.getElementById('reportType').value = result[4].value;
+                        // document.getElementById('showFrw').value = result[4].value;
+                        // document.getElementById('showFc').value = result[4].value;
+                        // document.getElementById('showDol').value = result[4].value;
+                     }
+                 }
+                xhr.send();
+            }
+            loadUsers();
+            setInterval(function(){ loadUsers(); }, 1000);
+		
+         </script>
+    <script src="dashboardRemote.js"></script>
+</body>
+</html>
+
+ <!-- [
+  { 
+    "id":"1",
+    "name":"fw", 
+    "value":"1" 
+  },
+  { 
+    "id":"1",
+    "name":"fc" ,
+    "value":"1" 
+  }
+  ] 
+  
+  //  for(var i in result) {
+      //      output += '<div> <ul>' +
+          //      '<li> ID: '+ result[i].id + '</li>' +
+          //      '<li> Name: '+ result[i].name + '</li>' +
+          //      '</ol></div>';
+          //  console.log(result);
+          //  }
+          //  console.log(result[1].name);
+        -->

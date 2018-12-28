@@ -1,0 +1,37 @@
+  
+if ($type == 'stock') {
+
+
+} elseif ($type == 'sell') {
+ 
+    }
+   # end of users
+}
+Invitation
+Divers
+selectType(val)
+
+
+
+TotalBalanceType
+TotalBalanceTypeFrw
+/////////////////////////////////////////////////////////////
+
+      $env_id                 = @retrieve_data('item_id','balance_table','balance_id',$Bid);
+      $client_name            = @retrieve_data('client_name','balance_table','balance_id',$Bid);
+
+      $date_DB                = @retrieve_data('date','balance_table','balance_id',$Bid);
+      $balance                = @retrieve_data('balance','balance_table','balance_id',$Bid);
+      $comment                = @retrieve_data('comment','balance_table','balance_id',$Bid);
+      $client_name            = @retrieve_data('client_name','balance_table','balance_id',$Bid);
+      $payed_in               = @retrieve_data('payed_in','balance_table','balance_id',$Bid);
+      $closed                 = @retrieve_data('closed','balance_table','balance_id',$Bid);
+      $paym_typ               = @retrieve_data('paym_typ','balance_table','balance_id',$Bid);
+      $Rate_R                 = @retrieve_data('Rate_R','balance_table','balance_id',$Bid);
+      $Rate_Fc                = @retrieve_data('Rate_Fc','balance_table','balance_id',$Bid);
+      $Pay_Fr                 = @retrieve_data('Pay_Fr','balance_table','balance_id',$Bid);
+      $Pay_Dol                = @retrieve_data('Pay_Dol','balance_table','balance_id',$Bid);
+      $Pay_fc                 = @retrieve_data('Pay_fc','balance_table','balance_id',$Bid);
+      $Total_Available        = @retrieve_data('Total_Available','balance_table','balance_id',$Bid);
+      $Total_Available_Rw     = @retrieve_data('Total_Available_Rw','balance_table','balance_id',$Bid);
+

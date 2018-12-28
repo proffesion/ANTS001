@@ -1,0 +1,186 @@
+/* for the print style */
+
+head {
+    display: none;
+}
+
+.hide-print {
+    display: none;
+}
+
+.print-report-contain {
+    display: block;
+    width: 100%;
+}
+
+body {
+    /*background: red;*/
+    min-width: 100%;
+}
+
+.col-md-8 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*////////////////////////////////    bill */
+
+.val-section hr {
+    border-bottom: 1px dashed #333;
+    margin: 3px 0px;
+    opacity: 0.5;
+}
+
+.val-section .label-v {
+    font-size: 16px;
+    /*width: 130px;*/
+    width: 28%;
+}
+
+.val-section .value {
+    font-size: 16px;
+    font-weight: normal;
+    width: 71%;
+    text-align: right;
+}
+
+.bill-container img {
+    height: 41px;
+}
+
+.bill-container section {
+    /*border-bottom: 2px solid #000;*/
+    padding-bottom: 7px;
+}
+
+.bill-container p {
+    margin-top: 40px;
+}
+
+/*.bill-container p b { margin-top: 40px; }*/
+
+body,
+.main-containner {
+    min-width: 100%;
+    /*filter: blur(4px);
+  -O-filter: blur(4px);
+  -webkit-filter: blur(4px);*/
+}
+
+table {
+    border-color: #000;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.invisible-form {
+    margin: 0px;
+    background: transparent;
+    border: none;
+    color: #000;
+    font-size: 19px;
+    padding: 0;
+    width: 26%;
+    display: inline;
+    box-shadow: none;
+}
+
+.covRow .controller {
+    display: none;
+}
+
+.contentsPrint,
+.col-xs-3,
+.containnerCov,
+.row,
+.covRow,
+.col {
+    top: 0px;
+    right: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.covRow .contentsPrint {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.contentsPrint .paper {
+    background: #fff;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 1122.52px;
+    /* min-height: 793px; */
+    /* page-break-before: always;  */
+}
+
+div.chapter,
+div.appendix {
+    /* page-break-before: always;  */
+}
+
+.contentsPrint,
+.noMP {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ////////////////////////////////// */
+
+.identificationArea section {
+    margin-bottom: 23px;
+}
+
+.identificationArea section label {
+    color: #383838;
+    margin: 0;
+    padding: 0px 0px 2px 0px;
+    font-size: 14px;
+    font-weight: inherit;
+}
+
+.identificationArea section select {
+    background: transparent;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    /* margin-left: -4px; */
+}
+
+.identificationArea div.signature {
+    height: 53px;
+    width: 80%;
+    border: 1px dashed #000000;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 9px;
+    color: #000000;
+    margin-top: 7px;
+    opacity: 0.5;
+}
+
+.identificationArea .checkedByContainer {
+    border: 1px solid #e2dede;
+    padding: 11px 0px 0px 7px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+section.date {
+    font-size: 9px;
+}

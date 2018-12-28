@@ -1,0 +1,165 @@
+.controller {
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.controller .containn {
+    padding: 17px 3px;
+}
+
+.contentsPrint {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    min-height: 100vh;
+    padding: 22px;
+}
+
+.covRow {
+    background: #333;
+    margin: 0;
+    /* height: 100vh; */
+}
+
+.containnerCov,
+body {
+    background: #000;
+}
+
+section.errorNot {
+    color: red;
+    font-size: 16px;
+    border-left: 2px solid red;
+    padding: 0px 8px;
+    margin-left: 15px;
+}
+
+label {
+    font-size: 20px;
+    padding-top: 26px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+body {
+    background: rgb(204, 204, 204);
+}
+
+.print-button {
+    float: right;
+    background: #337ab7;
+    padding: 1px 10px;
+    display: block;
+    margin-top: -8px;
+    right: -10px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 23px;
+    margin-right: -10px;
+}
+
+a.current {
+    color: blue;
+    background: transparent;
+    font-weight: bold;
+}
+
+.showAllButton {
+    display: none;
+}
+
+.margins {
+    padding: 33px 0px;
+}
+
+.NoPaper {
+    margin: 0px;
+    padding: 0px;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
+
+.smothOpacity {
+    opacity: 0.4;
+}
+
+.form-control {
+    padding: 3px 1px;
+}
+
+table {
+    box-shadow: none;
+    border-style: double;
+    font-size: 13px;
+    margin: 0;
+}
+
+.signator-containner label {
+    font-size: 16px;
+    padding-top: 0px;
+}
+
+.identificationArea section {
+    margin-bottom: 23px;
+}
+
+.identificationArea section label {
+    color: #383838;
+    margin: 0;
+    padding: 0px 0px 2px 0px;
+    font-size: 14px;
+    font-weight: inherit;
+}
+
+.identificationArea section select {
+    background: transparent;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    /* margin-left: -4px; */
+    -webkit-appearance: none;
+}
+
+.identificationArea div.signature {
+    height: 57px;
+    width: 80%;
+    border: 1px dashed #00000069;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 16px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.identificationArea .checkedByContainer {
+    border: 1px solid #e2dede;
+    padding: 11px 0px 0px 7px;
+    border-radius: 4px;
+    margin-bottom: 17px;
+}
+
+.identificationArea {}
+
+.list-group a.list-group-item,
+.nothingFoundDiv {
+    display: none;
+}
+
+.list-group label {
+    display: block;
+}
+
+.signature img {
+    width: 100%;
+    height: 100%;
+}
